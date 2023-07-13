@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="multi_instance_background_task.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:multi_instance_background_task"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="RunBackgroundTaskButton" Tapped="RunBackgroundTaskButton_Tapped" FontSize="30" Content="Run ThisBackgroundTask" HorizontalAlignment="Center" Height="66" Width="355" Margin="10,0,0,0" />
+    </Grid>
+</Page>
